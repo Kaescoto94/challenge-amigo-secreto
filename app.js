@@ -34,3 +34,19 @@ function crearListaAmigos(lista) {
     }
     return;
 }
+
+function sortearAmigo() {
+    let listaGanador = document.getElementById('resultado');
+    //Validar que haya amigos disponibles
+    if (amigos.length < 3) {
+        alert('Agrega al menos tres amigos para realizar el sorteo.');
+        return;
+    }
+    //Generar un índice aleatorio
+    let indiceGanador = Math.floor(Math.random() * amigos.length);
+    //Obtener el nombre sorteado
+    let ganador = amigos[indiceGanador];
+    //Mostrar el resultado
+    listaGanador.innerHTML = `🎉 El amigo secreto es: <strong>${ganador}</strong> 🎁`;
+    return;
+}
