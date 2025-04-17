@@ -69,5 +69,5 @@ Este proyecto forma parte del curso de introducción a la programación y fue re
 ## 🌐 Demo en línea
 
 Podés ver y probar la aplicación en funcionamiento aquí:
-➡️ https://kaescoto94.github.io/challenge-amigo-secreto/
+➡️ [Demo a través de GitHub Pages](https://kaescoto94.github.io/challenge-amigo-secreto)
 
